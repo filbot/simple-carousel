@@ -1,0 +1,75 @@
+body {
+  border-top: 4px solid #e5d58e;
+  background: linear-gradient(180deg, #e9e9ea, #fff);
+  background-repeat: no-repeat;
+  color: #666;
+}
+
+a {
+  color: #333;
+}
+
+a:focus,
+a:hover {
+  color: #333;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.phone-container {
+  margin-top: 6rem;
+}
+
+.phone {
+  position: relative;
+  width: 300px;
+  height: 637px;
+  background-image: url(../assets/iphone/iphone-white.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#carousel {
+  position: absolute;
+  top: 75px;
+  left: 17px;
+  width: 264px;
+}
+
+.copy-container {
+  margin-top: 50%;
+  width: 300px;
+}
+
+.copy-container h1 {
+  font-family: HelveticaNeue-Thin;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  color: #999;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.btn-dl-collection {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Thin;
+  font-size: 24px;
+  color: #e5d58e;
+  line-height: 33px;
+  border: 2px solid #e5d58e;
+  border-radius: 40px;
+}
+
+a.btn-dl-collection:focus,
+a.btn-dl-collection:hover {
+  color: #e5d58e;
+  text-decoration: none;
+}
